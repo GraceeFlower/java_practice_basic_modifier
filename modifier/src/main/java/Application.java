@@ -7,5 +7,8 @@ public class Application {
     Teacher Solider = new Teacher("Solider", Mary);
     Teacher Bob = new Teacher("Bob", Cindy);
 
+    Solider.addFiveScore();
+    Bob.addFiveScore();
+
   }
 }
