@@ -10,5 +10,13 @@ public class Application {
     Solider.addFiveScore();
     Bob.addFiveScore();
 
+    System.out.println("- Solider's Student Info -");
+    System.out.println("name: " + Solider.getMember().getName()
+        + "\nscore: " + Solider.getMember().getScore() + "\n");
+
+    System.out.println("- Bob's Student Info -");
+    System.out.println("name: " + Bob.getMember().getName()
+        + "\nscore: " + Bob.getMember().getScore());
+
   }
 }
