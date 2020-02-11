@@ -19,4 +19,8 @@ public class Teacher {
     public void setMember(Student member) {
         this.member = member;
     }
+
+    public void addFiveScore() {
+        member.setScore(member.getScore() + 5);
+    }
 }
