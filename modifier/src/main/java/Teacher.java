@@ -1,24 +1,22 @@
-import java.util.ArrayList;
-
 public class Teacher {
 
     private final String name;
-    private ArrayList<Student> studentList;
+    private Student member;
 
-    public Teacher(String name, ArrayList<Student> list) {
+    public Teacher(String name, Student member) {
         this.name = name;
-        this.studentList = list;
+        this.member = member;
     }
 
     public String getName() {
         return name;
     }
 
-    public ArrayList<Student> getStudentList() {
-        return studentList;
+    public Student getMember() {
+        return member;
     }
 
-    public void setStudentList(ArrayList<Student> studentList) {
-        this.studentList = studentList;
+    public void setMember(Student member) {
+        this.member = member;
     }
 }
