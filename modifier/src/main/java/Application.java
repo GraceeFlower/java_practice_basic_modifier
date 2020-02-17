@@ -7,8 +7,8 @@ public class Application {
     Teacher Solider = new Teacher("Solider", Mary);
     Teacher Bob = new Teacher("Bob", Cindy);
 
-    Solider.addFiveScore();
-    Bob.addFiveScore();
+    Solider.addScore(5);
+    Bob.addScore(5);
 
     System.out.println("- Solider's Student Info -");
     System.out.println("name: " + Solider.getMember().getName()

@@ -20,7 +20,7 @@ public class Teacher {
         this.member = member;
     }
 
-    public void addFiveScore() {
-        member.setScore(member.getScore() + 5);
+    public void addScore(int score) {
+        member.setScore(member.getScore() + score);
     }
 }
