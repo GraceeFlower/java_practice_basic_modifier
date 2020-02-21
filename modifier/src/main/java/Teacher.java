@@ -23,4 +23,9 @@ public class Teacher {
     public void addScore(int score) {
         member.setScore(member.getScore() + score);
     }
+
+    public void printStuInfo() {
+        System.out.println("name: " + this.member.getName()
+            + "\nscore: " + this.member.getScore() + "\n");
+    }
 }
