@@ -25,7 +25,6 @@ public class Teacher {
     }
 
     public void printStuInfo() {
-        System.out.println("name: " + this.member.getName()
-            + "\nscore: " + this.member.getScore() + "\n");
+        System.out.println(this.member);
     }
 }
